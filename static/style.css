@@ -8,7 +8,7 @@ body{
   text-align: center;
 }
 #grad1 {
-  margin: auto 10px;
+  height: auto;
   width: auto;
   background-color: #c5d3d4;
   background-image: linear-gradient(to bottom right, #c5d3d4, #036166);
