@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Result</title>
+    <link rel="stylesheet" href="static/style.css">
+  </head>
+  <body id="grad1" class = "full">
+    <br><div class="afterheading">Predicition</div><br>
+
+    {%if data == 0%}
+    <h1>Iris Setosa</h1>
+
+    {%elif data == 1%}
+    <h1>Iris virginica</h1>
+
+    {% else %}
+    <h1>Iris Versicolor</h1>
+    {%endif%}
+
+        <br><br>
+
+  <a href="/" class="myButton">Back to Home </a>
+  </body>
+</html>
