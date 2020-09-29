@@ -6,9 +6,9 @@
     <title></title>
     <link rel="stylesheet" href="static/style.css">
   </head>
-  <body class = "full">
+  <body class = "full" style="background-color:#419c9e;">
       <div class="prediction_form">
-        <div class="heading">Iris Flower Species Predicition</div><br>
+        <div class="heading" style = "color:#213838;">Iris Flower Species Predicition</div><br>
         <form method="POST", action="{{url_for('predict')}}">
           <input type="text", name='a', placeholder="Sepal Length"> <br><br>
           <input type="text", name='b', placeholder="Sepal Width"> <br><br>
